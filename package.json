@@ -1,11 +1,10 @@
 {
-  "name": "src",
+  "name": "URL Shortener",
   "version": "1.0.0",
   "description": "Backend cohort",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
