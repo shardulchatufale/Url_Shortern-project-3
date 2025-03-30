@@ -4,7 +4,8 @@ const urlController = require('../controllers/urlController')
 
 
 router.post('/url/shorten',urlController.postUrl)
-router.get('/:urlCode',urlController.getUrl)
+router.get('/:urlCode', urlController.getUrl)
+
 
 router.all("/*", function (req,res) {
     res.status(400).send({
